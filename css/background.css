@@ -1,0 +1,35 @@
+#web_bg{
+  background:
+  linear-gradient(90deg,
+    rgba(247,149,51,.1),
+    rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,
+    rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,
+    rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,
+    rgba(109,186,130,.1)
+    )
+  }::-webkit-scrollbar{
+    width:8px;height:8px
+    }::-webkit-scrollbar-track{
+      background-color:rgba(73,177,245,.2);border-radius:2em
+      }::-webkit-scrollbar-thumb{
+        background-color:#49b1f5;background-image:-webkit-linear-gradient(45deg,hsla(0,0%,100%,.4) 25%,transparent 0,transparent 50%,hsla(0,0%,100%,.4) 0,hsla(0,0%,100%,.4) 75%,transparent 0,transparent);border-radius:2em
+        }::-webkit-scrollbar-corner{
+          background-color:transparent
+          }::-moz-selection{
+            color:#fff;background-color:#49b1f5
+          }
+          
+#content-inner{
+  --light_bg_color:hsla(0,0%,100%,0.6);
+  --dark_bg_color:rgba(18,18,18,0.8);
+  --light_page_color:hsla(0,0%,100%,0.5);
+  --dark_page_color:rgba(18,18,18,0.8)
+  }body{
+    cursor:url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur),default
+    }a,button,img{
+      cursor:url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/pointer.cur),default
+      }video{
+        width:100%
+        }audio{
+          outline:none
+        }
