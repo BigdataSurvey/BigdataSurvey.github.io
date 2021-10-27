@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>神奇的变量</title>
   
-  
+  <subtitle>www</subtitle>
   <link href="https://bigdatasurvey.top/atom.xml" rel="self"/>
   
   <link href="https://bigdatasurvey.top/"/>
-  <updated>2021-10-26T10:41:16.579Z</updated>
+  <updated>2021-10-27T11:22:28.940Z</updated>
   <id>https://bigdatasurvey.top/</id>
   
   <author>
@@ -21,15 +21,19 @@
     <link href="https://bigdatasurvey.top/posts/16107/"/>
     <id>https://bigdatasurvey.top/posts/16107/</id>
     <published>2021-07-22T02:57:52.000Z</published>
-    <updated>2021-10-26T10:41:16.579Z</updated>
+    <updated>2021-10-27T11:22:28.940Z</updated>
     
     
-    <summary type="html">将本站针对butterfly主题的亿点点小改动做个集锦。</summary>
+    <summary type="html">这是一个假的介绍。</summary>
     
     
+    
+    <category term="Markdown" scheme="https://bigdatasurvey.top/categories/Markdown/"/>
     
     
     <category term="折腾日记" scheme="https://bigdatasurvey.top/tags/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="Typora" scheme="https://bigdatasurvey.top/tags/Typora/"/>
     
   </entry>
   

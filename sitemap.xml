@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://bigdatasurvey.top/link/index.html</loc>
+    <loc>https://bigdatasurvey.top/posts/16107/</loc>
     
-    <lastmod>2021-10-26</lastmod>
+    <lastmod>2021-10-27</lastmod>
     
   </url>
   
   <url>
-    <loc>https://bigdatasurvey.top/posts/16107/</loc>
+    <loc>https://bigdatasurvey.top/link/index.html</loc>
     
     <lastmod>2021-10-26</lastmod>
     
@@ -59,6 +59,20 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://bigdatasurvey.top/tags/Typora/</loc>
+    <lastmod>2021-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://bigdatasurvey.top/categories/Markdown/</loc>
+    <lastmod>2021-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>

@@ -104,7 +104,7 @@ i:hover{
 #page-header,
 #web_bg {
     -webkit-animation: imgblur 3s 1 ease-in-out;
-    animation: imgblur 3s 1 ease-in-out;
+    animation: imgblur 1s 1 ease-in-out;
 }
 @keyframes imgblur {
   0% {
@@ -229,4 +229,25 @@ i:hover{
 }
 [data-theme="dark"] .item-headline:before {
   background: rgba(255,255,255,0.9);
+}
+
+
+/*iconfont默认样式*/
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  }
+/* 页脚蝴蝶振翅动画 */
+.copyright svg{
+  animation:butterfly 1s linear infinite alternate;
+}
+@keyframes butterfly {
+  from {
+    transform:rotateY(70deg);
+  }
+  to {
+    transform:rotateY(0deg);
+  }
 }
