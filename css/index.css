@@ -214,7 +214,6 @@ hr:before,
 #article-container h4:before,
 #article-container h5:before,
 #article-container h6:before,
-#post .post-copyright:before,
 #post .post-outdate-notice:before,
 .note:not(.no-icon)::before {
   display: inline-block;
@@ -3274,6 +3273,34 @@ blockquote footer cite:before {
 #post-comment .comment-wrap > div:nth-child(2) {
   display: none;
 }
+#site-name:hover:before {
+  position: fixed;
+  width: fit-content;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 10%;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 100;
+  content: attr(data-title);
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  background-color: rgba(73,177,245,0.9);
+}
+[data-theme=dark] a#site-name:hover:before {
+  background-color: rgba(18,18,18,0.8);
+}
+@media screen and (max-width: 768px) {
+  a#site-name {
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
 #footer {
   position: relative;
   background: #49b1f5;
@@ -4551,15 +4578,18 @@ blockquote footer cite:before {
   -o-transition: box-shadow 0.3s ease-in-out;
   -ms-transition: box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out;
+  overflow: hidden;
+  border-radius: 12px !important;
+  background-color: #eff1f3;
 }
-#post .post-copyright:before {
-  position: absolute;
-  top: 0.1rem;
-  right: 0.6rem;
-  color: #49b1f5;
-  content: '\f1f9';
-  font-size: 1rem;
-}
+#post .post-copyright:before,
+#post .post-copyright position absolute,
+#post .post-copyright right -26px,
+#post .post-copyright top -120px,
+#post .post-copyright content '\f25e',
+#post .post-copyright font-size 200px,
+#post .post-copyright font-family 'Font Awesome 5 Brands',
+#post .post-copyright opacity .2,
 #post .post-copyright:hover {
   -webkit-box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
   box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
@@ -4572,11 +4602,14 @@ blockquote footer cite:before {
   padding-left: 0.3rem;
 }
 #post .post-copyright .post-copyright-info a {
-  text-decoration: underline;
+  text-decoration: none;
   word-break: break-word;
 }
 #post .post-copyright .post-copyright-info a:hover {
   text-decoration: none;
+}
+#post .post-copyright-cc-info {
+  color: #49b1f5;
 }
 #post .post-outdate-notice {
   position: relative;
